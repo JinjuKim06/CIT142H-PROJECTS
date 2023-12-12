@@ -1,0 +1,52 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Text color */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f; /* Darker background color for cards */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+#spotify-logo {
+  width: 100px; /* Adjust the size as needed */
+  margin-bottom: 20px;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.meme-image {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.meme-title {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.meme-artist {
+  font-style: italic;
+  color: #888888;
+}
+

@@ -1,0 +1,39 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 247, 235);
+  text-align: center;
+}
+
+header {
+  background-color: peachpuff;
+  color: rgb(97, 64, 17);
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+main {
+  padding: 20px;
+}
+
+.meme-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.meme-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+      font-size: 1.2em;
+  }
+
+  .meme-container {
+      max-width: 100%;
+  }
+}
